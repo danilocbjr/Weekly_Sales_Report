@@ -27,6 +27,14 @@ fat_2 <- fat_init[-c(1:5),]
 names(fat_2) <- as.character(fat_2[1,])
 fat_2 <- fat_2[-1,]
 
-#Agora, temos que criar um arquivo em excel com o seguinte detalhe:
-#1. 
+#próximos passos
+
+#1 carregar o arquivo de backlog anterior
+#2 adicionar o order booking acima
+#3 adicionar o faturamento acima
+#4 carregar o arquivo de logística
+#5 procurar a referência de NF e trazer a data da entrega
+#6 para os casos que existam data de entrega, marcar dentro do arquivo de backlog
+#7 summarize dos itens de order booking e faturamento (por mês)
+#8 status atual do backlog
 
